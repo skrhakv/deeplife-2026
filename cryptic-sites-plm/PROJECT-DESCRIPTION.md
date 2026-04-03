@@ -63,6 +63,8 @@ The following resources will be provided by the organizers:
 - PyMOL scripting documentation: [PyMOL wiki](https://pymolwiki.org/index.php/Main_Page).
 
 ## How to run the finetuned ESM2 model
+Download the model from [this link](https://cunicz-my.sharepoint.com/:u:/g/personal/99575159_cuni_cz/IQDTozFMT5pMQoWIaHzqQmQ5ASbN36kTO4OUv2GFxuu2pno?e=iOakb4). 
+
 We have tested installation pipeline using CONDA environment:
 ```
 conda create -n "run_esm2" python=3.12.12
