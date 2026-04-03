@@ -61,3 +61,13 @@ The following resources will be provided by the organizers:
 - CryptoBench benchmark and evaluation: [Paper](https://academic.oup.com/bioinformatics/article/41/1/btae745/7927823) | [OSF dataset](https://osf.io/pz4a9/).
 - AHoJ-DB (apo-holo structure pairs): [apoholo.cz/db](https://apoholo.cz/db).
 - PyMOL scripting documentation: [PyMOL wiki](https://pymolwiki.org/index.php/Main_Page).
+
+## How to run the finetuned ESM2 model
+We have tested installation pipeline using CONDA environment:
+```
+conda create -n "run_esm2" python=3.12.12
+conda activate run_esm2
+python3 -m pip install -r requirements.txt
+```
+Nevertheless, fresh environment with Python3.12 should also work without problems.
+
