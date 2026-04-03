@@ -27,7 +27,7 @@ PDB_ID;Chain;Ligand_IDs;Residue_Indices
 
 - **Identifiers**: Uses `auth_asym_id` (Chain) and `auth_seq_id` (Residues). See [PDB Identifiers](https://www.rcsb.org/docs/general-help/identifiers-in-pdb) for details.
 - **Multiple Pockets**: Separate lines for the same PDB+Chain indicate multiple distinct cryptic pockets
-- *Note: For simplicity, this subset excludes pockets spanning multiple chains.*
+- *Note: For simplicity, both the test and train subsets exclude pockets spanning multiple chains.*
 
 ## Smaller ESM2 model *(for **Cryptic sites pLM** project)*
 We provide the 3B parameter fine-tuned ESM2 model for consistency with [our preprint]([/home/skrhakv/cryptoshow-analysis](https://www.biorxiv.org/content/10.64898/2026.01.28.702257v1.full.pdf)). A smaller 650M parameter version is available upon request if hardware constraints arise.
